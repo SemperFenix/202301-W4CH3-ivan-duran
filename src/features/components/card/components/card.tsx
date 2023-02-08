@@ -33,11 +33,11 @@ export function Card({ character }: CardProps) {
         />
         <div className="card-body">
           <h2 className="character__name card-title h4">
-            ${character.name} ${character.family}
+            {character.name} {character.family}
           </h2>
           <div className="character__info">
             <ul className="list-unstyled">
-              <li>Edad: ${character.age}</li>
+              <li>Edad: {character.age}</li>
               <li>
                 Estado:
                 <i className="fas fa-thumbs-down inactive"></i>
