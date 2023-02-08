@@ -1,8 +1,5 @@
-import { AnyCharacter, Characters } from "../mocks/characters";
-import { Counselor } from "../models/counselor";
-import { Fighter } from "../models/fighter";
-import { King } from "../models/king";
-import { Squire } from "../models/squire";
+import { AnyCharacter } from "../mocks/characters";
+
 import { CounselorCard } from "./counselor-card/counselor.card";
 import { FighterCard } from "./fighter-card/fighter.card";
 import { KingCard } from "./king-card/king.card";
